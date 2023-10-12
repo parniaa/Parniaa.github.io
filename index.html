@@ -37,7 +37,7 @@ p {
   color: #ffffff;
 }
 .bg-1 {
-  background-color: #112240; /* Green */
+  background-color: #000; /* Green */
   color: #ffffff;
 }
 .bg-2 {
@@ -85,13 +85,13 @@ p {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#">Me</a>
+      <a class="navbar-brand" href="#">Armin P</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#About">About</a></li>
         <li><a href="#Experience">Experience</a></li>
-        <li><a href="#Work">Work</a></li>
+        <li><a href="#Work">Resume</a></li>
         <li><a href="#Contatct">Contatct</a></li>
       </ul>
     </div>
@@ -100,34 +100,36 @@ p {
 
 <!-- First Container -->
 <div class="container-fluid bg-1 text-center" id="About">
-  <h3 class="margin">About Me</h3>
-  <img src="./images/Armin.JPG" class="img-responsive img-rounded margin" style="display:inline" alt="Bird" width="425" height="425">
-  <h3>I'm an adventurer</h3>
+  <h3 class="margin"></h3>
+  <img src="./images/Armin.JPG" class="img-responsive img-rounded margin" style="display:inline; border-radius: 50%;" alt="Bird" width="425" height="425">
+  <h3>Software Engineer</h3>
 </div>
 
 <!-- Second Container -->
 <div class="container-fluid bg-2 text-center"  id="Experience">
   <h3 class="margin">Experience</h3>
-  <p>to be written </p>
-  <a href="#" class="btn btn-default btn-lg">
-    <span class="glyphicon glyphicon-search"></span> Search
-  </a>
+  <p>Front end Engineer at Recipe Unlimited</p>
+
 </div>
 
 <!-- Third Container (Grid) -->
 <div class="container-fluid bg-3 text-center" id="Work">    
-  <h3 class="margin">Work</h3><br>
+  <h3 class="margin">Resume</h3><br>
   <div class="row">
     <div class="col-sm-4">
-      <p>Armin more content</p>
+      <object data="./images/resume.pdf" type="application/pdf" width="100%" height="500px">
+        <p>Unable to display PDF file. <a href="./images/resume.pdf">Download</a> instead.</p>
+      </object>
+    </div>
+    <div class="col-sm-4">
       <img src="./images/toront-V.jpg" class="img-responsive margin" style="width:100%" alt="Image">
     </div>
     <div class="col-sm-4"> 
-      <p>some content</p>
+      <p></p>
       <img src="./images/toronto.jpg" class="img-responsive margin" style="width:100%" alt="Image">
     </div>
     <div class="col-sm-4"> 
-      <p>more content</p>
+      <p></p>
       <img src="./images/bits.jpg" class="img-responsive margin" style="width:100%" alt="Image">
     </div>
   </div>
@@ -135,10 +137,7 @@ p {
 <!-- Forth Container -->
 <div class="container-fluid bg-4 text-center"  id="Contatct">
   <h3 class="margin">Contatct Me</h3>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-  <a href="#" class="btn btn-default btn-lg">
-    <span class="glyphicon glyphicon-search"></span> Search
-  </a>
+  <a href = "mailto: parniaa@gmail.com">Send Email to Me</a>
 </div>
 
 <!-- Footer -->
