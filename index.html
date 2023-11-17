@@ -1,153 +1,330 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Armin Parnia</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet"> 
-  <link rel="preconnect" href="https://fonts.gstatic.com"> 
-  <link href="https://fonts.googleapis.com/css2?family=Brawler&display=swap" rel="stylesheet">   
-  <link rel="stylesheet" href="./css/bootstyle.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-</head>
-<style>
-  html {
-  scroll-behavior: smooth;
-}
-  body {
-  font-family: "Open Sans", sans-serif;
-  line-height: 1.8;
-  color: #f5f6f7;
-}
-nav {
-  font-family: "Brawler", serif;
-}
-p {
-  font-size: 16px;
-}
-.margin {
-  margin-bottom: 45px;
-}
-.bg-0 {
-  background-color: #0a192f; /* Green */
-  color: #ffffff;
-}
-.bg-1 {
-  background-color: #000; /* Green */
-  color: #ffffff;
-}
-.bg-2 {
-  background-color: #233554; /* Dark Blue */
-  color: #ffffff;
-}
-.bg-3 {
-  background-color: #8892b0; /* White */
-  color: #555555;
-}
-.bg-4 {
-  background-color: #233554; /* Black Gray */
-  color: #fff;
-}
-.bg-5 {
-  background-color: #a8b2d1; /* Black Gray */
-  color: #ffffff;
-}
-.container-fluid {
-  padding-top: 70px;
-  padding-bottom: 70px;
-}
-.navbar {
-  padding-top: 15px;
-  padding-bottom: 15px;
-  border: 0;
-  border-radius: 0;
-  margin-bottom: 0;
-  font-size: 12px;
-  letter-spacing: 5px;
-}
-.navbar-nav li a:hover {
-  color: #1abc9c !important;
-}
+  <head>
+    <title>Armin Parnia</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Brawler&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/bootstyle.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <p>
+      <a href="https://www.linkedin.com/in/arminparnia">LinkedIn</a> | Email:
+      <a href="mailto:Parniaa@gmail.com">Parniaa@gmail.com</a> | Github:
+      <a href="https://github.com/parniaa">github.com/parniaa</a>
+    </p>
+  </head>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    body {
+      font-family: "Open Sans", sans-serif;
+      line-height: 1.8;
+      color: #f5f6f7;
+    }
+    nav {
+      font-family: "Brawler", serif;
+    }
+    p {
+      font-size: 16px;
+    }
+    .margin {
+      margin-bottom: 45px;
+    }
+    .bg-0 {
+      background-color: #0a192f; /* Green */
+      color: #ffffff;
+    }
+    .bg-1 {
+      background-color: #000; /* Green */
+      color: #ffffff;
+    }
+    .bg-2 {
+      background-color: #233554; /* Dark Blue */
+      color: #ffffff;
+    }
+    .bg-3 {
+      background-color: #8892b0; /* White */
+      color: #555555;
+    }
+    .bg-4 {
+      background-color: #233554; /* Black Gray */
+      color: #fff;
+    }
+    .bg-5 {
+      background-color: #a8b2d1; /* Black Gray */
+      color: #ffffff;
+    }
+    .container-fluid {
+      padding-top: 70px;
+      padding-bottom: 70px;
+    }
+    .navbar {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 12px;
+      letter-spacing: 5px;
+    }
+    .navbar-nav li a:hover {
+      color: #1abc9c !important;
+    }
+    h1 {
+      margin-bottom: 10px;
+    }
 
-</style>
-<body>
+    h2 {
+      margin-top: 20px;
+    }
 
-<!-- Navbar -->
-<nav class="navbar navbar-inverse navbar-fixed-top bg-0">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <a class="navbar-brand" href="#">Armin Parnia</a>
+    p {
+      margin-bottom: 10px;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    li {
+      margin-bottom: 5px;
+    }
+
+    a {
+      color: #007bff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top bg-0">
+      <div class="container">
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle"
+            data-toggle="collapse"
+            data-target="#myNavbar"
+          >
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Armin Parnia</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#About">About</a></li>
+            <li><a href="#Experience">Experience</a></li>
+            <li><a href="#Work">Resume</a></li>
+            <li><a href="#Contatct">Contatct</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- First Container -->
+    <div class="container-fluid bg-1 text-center" id="About">
+      <h3 class="margin"></h3>
+      <img
+        src="./images/Armin.JPG"
+        class="img-responsive img-rounded margin"
+        style="display: inline; border-radius: 50%; max-width: 30vh"
+        alt="Bird"
+        width="425"
+        height="425"
+      />
+      <h3>Software Engineer</h3>
     </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#About">About</a></li>
-        <li><a href="#Experience">Experience</a></li>
-        <li><a href="#Work">Resume</a></li>
-        <li><a href="#Contatct">Contatct</a></li>
-      </ul>
+
+    <!-- Second Container -->
+    <div class="container-fluid bg-2 text-center" id="Experience">
+      <div>
+        <h2>Profile</h2>
+        <p>
+          Experienced Software Engineer with a strong track record in web
+          application development and analytics. Proficient in a diverse range
+          of technologies and software development methodologies. Skilled at
+          creating responsive and high-performance web solutions, showcasing
+          exceptional leadership and problem-solving abilities. Adept at
+          mentoring team members, leading critical projects, and continuously
+          enhancing software systems.
+        </p>
+
+        <h2>Technical Expertise</h2>
+        <ul>
+          <li>
+            <strong>Programming Languages:</strong> JavaScript, TypeScript,
+            Dart, Java, Python, HTML, CSS, OOP
+          </li>
+          <li>
+            <strong>Technologies:</strong> MS SQL, MongoDB, AWS, Linux, npm,
+            Axios, Redux
+          </li>
+          <li>
+            <strong>Frameworks & APIs:</strong> React.Js, Vue.Js, Flutter,
+            Node.Js, JQuery, Google cloud, AWS
+          </li>
+          <li>
+            <strong>IDEs, Source Control, Test:</strong> VS Code, Visual Studio,
+            Git, Bitbucket, Jira, Mocha and Chai, Jest, Cypress
+          </li>
+        </ul>
+
+        <h2>Professional Experience</h2>
+
+        <h3>Frontend Engineer | Recipe Unlimited Corporation | May 2021</h3>
+        <ul>
+          <li>
+            Collaborated closely with product managers to define constraints and
+            devise innovative solutions.
+          </li>
+          <li>
+            Successfully delivered full stack projects for internal use, using
+            Vue.JS, TS, Express, Dart and Flutter.
+          </li>
+          <li>
+            Independently managed project planning and task prioritization,
+            ensuring the timely delivery of high-quality Google Analytics (GA4)
+            and Salesforce Marketing Cloud with Google Tag Manager.
+          </li>
+          <li>
+            Developed, optimized, and deployed product catalog automation
+            scheduler.
+          </li>
+        </ul>
+
+        <h3>Full Stack Engineer | QuadFi | Jan 2021 - May 2021</h3>
+        <ul>
+          <li>
+            Built efficient front-end and backend systems, ensuring user
+            experience determines design choices.
+          </li>
+          <li>
+            Identified and communicated best practices for front-end and backend
+            engineering.
+          </li>
+          <li>
+            Built responsive frontend components and backend API with REACT,
+            Express, HTML, and CSS.
+          </li>
+        </ul>
+
+        <h3>
+          Business Intelligence Developer | Business Analyst | Insight Software
+          | Jan 2019 - Oct 2020
+        </h3>
+        <ul>
+          <li>
+            Provided consultation and best practices on data analysis,
+            visualizations, Data Layer design.
+          </li>
+          <li>
+            Developed tailored solutions and supported integration using APIs
+            (JavaScript, .NET, and REST API).
+          </li>
+          <li>
+            Acted as a dedicated support developer assisting the support team in
+            resolving customer-reported issues.
+          </li>
+        </ul>
+
+        <h2>Education</h2>
+
+        <h3>Diploma Full Stack Web Development (Immersive Bootcamp) | 2020</h3>
+        <p>Lighthouse Labs, Toronto, Canada</p>
+
+        <h3>MSc in Computer Science (Information Architecture) | 2012-2015</h3>
+        <p>Delft University of Technology, Delft, The Netherlands</p>
+      </div>
     </div>
-  </div>
-</nav>
 
-<!-- First Container -->
-<div class="container-fluid bg-1 text-center" id="About">
-  <h3 class="margin"></h3>
-  <img src="./images/Armin.JPG" class="img-responsive img-rounded margin" style="display:inline; border-radius: 50%; max-width: 30vh;" alt="Bird" width="425" height="425">
-  <h3>Software Engineer</h3>
-</div>
-
-<!-- Second Container -->
-<div class="container-fluid bg-2 text-center"  id="Experience">
-  <h3 class="margin">Experience</h3>
-  <p>Front end Engineer at Recipe Unlimited</p>
-
-</div>
-
-<!-- Third Container (Grid) -->
-<div class="container-fluid bg-3 text-center" id="Work">    
-  <h3 class="margin">Resume</h3><br>
-  <div class="row">
-    <div class="col-sm-4">
-      <object data="./images/resume.pdf" type="application/pdf" width="100%" height="500px">
-        <p>Unable to display PDF file. <a href="./images/resume.pdf">Download</a> instead.</p>
-      </object>
+    <!-- Third Container (Grid) -->
+    <div class="container-fluid bg-3 text-center" id="Work">
+      <h3 class="margin">Resume</h3>
+      <br />
+      <div class="row">
+        <div class="col-sm-4">
+          <object
+            data="./images/resume.pdf"
+            type="application/pdf"
+            width="100%"
+            height="500px"
+          >
+            <p>
+              Unable to display PDF file.
+              <a href="./images/resume.pdf">Download</a> instead.
+            </p>
+          </object>
+        </div>
+        <div class="col-sm-4">
+          <img
+            src="./images/toront-V.jpg"
+            class="img-responsive margin"
+            style="width: 100%"
+            alt="Image"
+          />
+        </div>
+        <div class="col-sm-4">
+          <p></p>
+          <img
+            src="./images/toronto.jpg"
+            class="img-responsive margin"
+            style="width: 100%"
+            alt="Image"
+          />
+        </div>
+        <div class="col-sm-4">
+          <p></p>
+          <img
+            src="./images/bits.jpg"
+            class="img-responsive margin"
+            style="width: 100%"
+            alt="Image"
+          />
+        </div>
+      </div>
     </div>
-    <div class="col-sm-4">
-      <img src="./images/toront-V.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+    <!-- Forth Container -->
+    <div class="container-fluid bg-4 text-center" id="Contatct">
+      <h3 class="margin">Contatct Me</h3>
+      <a href="mailto: parniaa@gmail.com">Send Email to Me</a>
     </div>
-    <div class="col-sm-4"> 
-      <p></p>
-      <img src="./images/toronto.jpg" class="img-responsive margin" style="width:100%" alt="Image">
-    </div>
-    <div class="col-sm-4"> 
-      <p></p>
-      <img src="./images/bits.jpg" class="img-responsive margin" style="width:100%" alt="Image">
-    </div>
-  </div>
-</div>
-<!-- Forth Container -->
-<div class="container-fluid bg-4 text-center"  id="Contatct">
-  <h3 class="margin">Contatct Me</h3>
-  <a href = "mailto: parniaa@gmail.com">Send Email to Me</a>
-</div>
 
-<!-- Footer -->
-<footer class="container-fluid bg-5 text-center">
-  <p>Made By <a href="http://www.paarmin.com">www.paarmin.com</a></p>
-  <a href="https://www.linkedin.com/in/arminparnia/" class="fa fa-linkedin fa-lg"></a>
-  <a href="#" class="fa fa-twitter fa-lg"></a>
-  <a href="https://github.com/parniaa" class="fa fa-github fa-lg"></a>
-</footer>
-
-</body>
+    <!-- Footer -->
+    <footer class="container-fluid bg-5 text-center">
+      <p>Made By <a href="http://www.paarmin.com">www.paarmin.com</a></p>
+      <a
+        href="https://www.linkedin.com/in/arminparnia/"
+        class="fa fa-linkedin fa-lg"
+      ></a>
+      <a href="#" class="fa fa-twitter fa-lg"></a>
+      <a href="https://github.com/parniaa" class="fa fa-github fa-lg"></a>
+    </footer>
+  </body>
 </html>
-
